@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "husky": "^8.0.3"
+  },
+  "scripts": {
+    "dev": "npm run --prefix ./client dev",
+    "prepare": "npm run --prefix ./client prettier & npm run --prefix ./client lint"
+  }
+}
